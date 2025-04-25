@@ -41,7 +41,7 @@ func main() {
 			srcPath = "xywechatpad_binary/binaries/macos_x64/XYWechatPad"
 		}
 	case "linux":
-		if runtime.GOARCH == "arm64" {
+		if runtime.GOARCH == "aarch64" {
 			srcPath = "xywechatpad_binary/binaries/linux_aarch64/XYWechatPad"
 		} else {
 			srcPath = "xywechatpad_binary/binaries/linux_x64/XYWechatPad"
